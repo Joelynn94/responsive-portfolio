@@ -53,11 +53,11 @@ li {
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 nav {
-    padding: 10px 0;
+    padding: 19px 0;
 }
 
 .name {
@@ -65,4 +65,33 @@ nav {
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
+}
+
+main {
+    background-image: url('../images/triangle-mosaic.png');
+}
+
+.main-content {
+    background-color: #ffffff;
+}
+
+/* Heading Styles */
+
+.heading {
+    color: #4aaaa5;
+    padding: 15px 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+@media screen and (min-width: 768px) {
+
+    .name {
+        font-size: 2.25rem;
+    }
+
 }
