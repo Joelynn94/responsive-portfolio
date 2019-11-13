@@ -60,6 +60,22 @@ nav {
     padding: 19px 0;
 }
 
+/* Hover and active styles */
+
+a:hover {
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: 1px solid #4aaaa5;
+    color: #4aaaa5;
+}
+
+.active {
+    border-bottom: 1px solid #4aaaa5;
+    color: #4aaaa5;
+}
+
 /* Heading Styles */
 
 .heading {
